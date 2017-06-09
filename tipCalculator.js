@@ -11,17 +11,9 @@ function calcTip(){
   total= total + tip;
 
   if (!total){
-
     document.getElementById("tipTotal").innerHTML = "Put in a dollar amount";
     return;
-
   }
-
   document.getElementById("tipTotal").innerHTML = "Your total is $" + total.toFixed(2);
-
-
   document.getElementById("totalBill").value = "";
-
-
-
 }

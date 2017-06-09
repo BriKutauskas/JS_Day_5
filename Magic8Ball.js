@@ -27,9 +27,7 @@ function eightBall()  {
     document.getElementById('answer').innerHTML = "Give me a question";
   }else if(q == "stop" || q == "STOP"){
     document.getElementById('answer').innerHTML = "Okay that's enough"
-
   }
-
   else{
     document.getElementById('answer').innerHTML = (a[p]);
   }
